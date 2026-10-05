@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build step
-        run: test -f index.html && echo "Build OK - HTML file found"
+        run: test -f index.htm && echo "Build OK - HTML file found"
 
   deploy:
     runs-on: ubuntu-latest
